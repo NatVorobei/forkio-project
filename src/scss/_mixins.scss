@@ -1,4 +1,4 @@
-@function rem($px) {
+@function toRem($px) {
     $result: math.div($px, 16) + rem;
     @return $result;
 }
@@ -14,7 +14,7 @@
     background-color: $primary-violet;
     color: $white;
     border: none;
-    border-radius: rem(40);
+    border-radius: toRem(40);
 }
 @mixin buttonHover{
     background-color: $white;

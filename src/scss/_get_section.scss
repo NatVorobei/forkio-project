@@ -6,8 +6,8 @@
 
     
     &__content-box{
-        margin: rem(95) 0 rem(6) 0;
-        min-width: rem(320);
+        margin: toRem(95) 0 toRem(6) 0;
+        min-width: toRem(320);
         position: relative;
         
     }
@@ -20,13 +20,13 @@
     &__title-box{
        
         text-align: center;
-        padding: 0 rem(30);
-        margin-bottom: rem(-20);
+        padding: 0 toRem(30);
+        margin-bottom: toRem(-20);
     }
     &__title{
         
-        font-size: rem(32);
-        line-height: rem(38);
+        font-size: toRem(32);
+        line-height: toRem(38);
         font-weight: 700;
         color: $primary-violet;
         
@@ -41,45 +41,45 @@
     }
     &__list{
         text-align: center;
-    min-width: rem(277);
+    min-width: toRem(277);
        padding: 0;
     }
     &__item{
-        margin-top: rem(36);
+        margin-top: toRem(36);
         
     }
     
     &__img--onright{
-       margin-left: rem(25);
+       margin-left: toRem(25);
     }
 
     &__item-title{
         
-        font-size: rem(16);
+        font-size: toRem(16);
         font-weight: 400;
-        line-height: rem(16);
+        line-height: toRem(16);
         color: $accent-grey;
        
     }
     
     &__item-text{
        
-        font-size: rem(14);
+        font-size: toRem(14);
         font-weight: 400;
-        line-height: rem(21);
+        line-height: toRem(21);
         color: $light-grey;
         
     }
     
     &__screen-shot{
-       margin-top: rem(95);
+       margin-top: toRem(95);
         
     }
     &__img-screen{
        
     
     width: 90%;
-   height: rem(381);
+   height: toRem(381);
    float: right;
 
     }
@@ -90,7 +90,7 @@
         .get{
            
             &__content-box{
-                margin-top: rem(140);
+                margin-top: toRem(140);
                 width: 100%;
             }
            
@@ -101,8 +101,8 @@
                 
                 margin-top: 0;
                 
-                font-size: rem(42);
-                line-height: rem(44);
+                font-size: toRem(42);
+                line-height: toRem(44);
             }
             &__list{
                 margin: 0 auto;  
@@ -120,16 +120,16 @@
                 
             }
             &__img--onright{
-                margin-left: rem(18);
+                margin-left: toRem(18);
                 
                 
              }
             &__img-box{
-                width: rem(114);
+                width: toRem(114);
                 text-align: center;
                 justify-content: center;
                 align-items: center;
-                margin-right: rem(20);
+                margin-right: toRem(20);
             }
             &__screen-shot{
                width: auto;
@@ -142,7 +142,7 @@
             
                 
                 width: 90%;
-                height: rem(519); 
+                height: toRem(519); 
                 float: right;
             }
         }
@@ -152,7 +152,7 @@
         .get__item-text-box{
              
             
-         width: rem(500);
+         width: toRem(500);
             
         }
         .get__img-screen{
@@ -168,8 +168,8 @@
         
         .get{
             background: #F4F4F4;
-            padding-bottom: rem(35);
-            margin-top: rem(70);
+            padding-bottom: toRem(35);
+            margin-top: toRem(70);
             
             
         &__content-box{
@@ -188,47 +188,47 @@
         &__title{
             
             position: absolute;
-            top: rem(50);
+            top: toRem(50);
             left: 49%;
             padding: 0;
         
         }
         &__list{
-            width: rem(550);
-            margin-right: rem(-30);
+            width: toRem(550);
+            margin-right: toRem(-30);
         }
         &__img-box{
-            width: rem(111);
+            width: toRem(111);
             text-align: center;
             justify-content: end;
             align-items: center;
-            margin-right: rem(20);
+            margin-right: toRem(20);
         }
         &__img-box--move{
-            margin-right: rem(15);
+            margin-right: toRem(15);
         }
         
         &__item-text-box{
                
             text-align: justify;
-            width: rem(350); 
+            width: toRem(350); 
         
         }
         &__img--onright{
-            margin-left: rem(10);
+            margin-left: toRem(10);
             
        
         }
         &__screen-shot{
-            margin-top: rem(100);
+            margin-top: toRem(100);
             width: auto;
-            height: rem(600);
+            height: toRem(600);
         }
         &__img-screen{
        
            
             width: 90%;
-            height: rem(519);
+            height: toRem(519);
             float: right;
          
          }
@@ -239,41 +239,41 @@
     @media (min-width: 1200px){
         .get{
             @include flex-center;
-            margin-top: rem(70);
+            margin-top: toRem(70);
             margin-left: auto;
             margin-right: auto;
-            padding-bottom: rem(35);
-            padding-top: rem(98);
+            padding-bottom: toRem(35);
+            padding-top: toRem(98);
         }
             
         
    .get{
         
         &__content-box{
-              max-width: rem(1200);
-              margin: rem(0) auto rem(0) auto;
+              max-width: toRem(1200);
+              margin: toRem(0) auto toRem(0) auto;
         }
        
         &__title{
-            font-size: rem(48);
-            line-height: rem(50);
+            font-size: toRem(48);
+            line-height: toRem(50);
 
         }
         &__list{
-            width: rem(550);
-            margin-right: rem(25);
+            width: toRem(550);
+            margin-right: toRem(25);
 
         }
         &__img-box{
-            margin-right: rem(30);
+            margin-right: toRem(30);
         }
         &__img-box--move{
-            margin-right: rem(16);
+            margin-right: toRem(16);
         }
         &__item-text-box{
                
             text-align: justify;
-           width: rem(405); 
+           width: toRem(405); 
  
            padding: 0;
        
@@ -287,7 +287,7 @@
            height: 100%;
          }
          &__screen-shot{
-            margin-top: rem(120);
+            margin-top: toRem(120);
         }
     }
     }
