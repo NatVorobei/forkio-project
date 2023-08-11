@@ -19,7 +19,7 @@
 .header__menu{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    line-height: 1toRem;
+    line-height: toRem(1);
 }
 
 .header__body{
@@ -85,8 +85,8 @@
     font-style: normal;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 1.5toRem;
-    line-height: 1toRem;
+    font-size: toRem(1.5);
+    line-height: toRem( 1);
     @media screen and (max-width: 481px) {
         display: none;
     }

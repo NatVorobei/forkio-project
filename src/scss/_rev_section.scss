@@ -12,7 +12,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     text-align: center;
-    padding: 0 1toRem;
+    padding: 0 toRem(1);
     text-transform: uppercase;
     margin-top: toRem(120);
     margin-bottom: toRem(27);
@@ -44,8 +44,8 @@
 }
 &__item-views{
     justify-content: space-between;
-    margin-right: 0.94toRem;
-    margin-bottom: 1toRem;
+    margin-right: toRem(0.94);
+    margin-bottom: toRem(1);
     
    
 }
