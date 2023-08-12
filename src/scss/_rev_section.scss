@@ -6,7 +6,7 @@
     @include flex-center;
     margin: 0 auto;
     min-width: toRem(320);
-    padding: 0 toRem(10);
+    // padding: 0 toRem(10);
 }
 &__title{
     font-family: 'Montserrat';
@@ -20,6 +20,7 @@
     font-weight: 700;
     line-height: toRem(28);
     color: $primary-grey;
+    padding: 0 10px;
 }
 &__subtitle{
     font-family: 'Lato';
@@ -32,6 +33,7 @@
     font-weight: 400;
     line-height: toRem(20);
     color: $accent-grey;
+    padding: 0 10px;
 }
 &__list-views{
     list-style-type: none;

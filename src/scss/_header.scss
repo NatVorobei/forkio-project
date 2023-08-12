@@ -85,8 +85,8 @@
     font-style: normal;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: toRem(1.5);
-    line-height: toRem( 1);
+    font-size: toRem(24);
+    line-height: toRem(16);
     @media screen and (max-width: 481px) {
         display: none;
     }

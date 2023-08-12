@@ -199,6 +199,7 @@ margin-top: toRem(20);
     &__list{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
     &__item{
        margin-right: 0;
